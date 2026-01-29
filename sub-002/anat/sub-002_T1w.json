@@ -1,0 +1,31 @@
+{
+  "ConversionSoftware": "dicm2nii.m 20250821",
+  "SeriesNumber": 6,
+  "SeriesDescription": "AXIAL RECON SPACE",
+  "ImageType": [
+    "DERIVED",
+    "SECONDARY",
+    "MPR",
+    "CSA MPR",
+    "CSAPARALLEL",
+    "M",
+    "ND",
+    "NORM"
+  ],
+  "Modality": "MR",
+  "AcquisitionDateTime": "20220211090709.815000",
+  "RepetitionTime": 3.2,
+  "PhaseEncodingDirection": "i?",
+  "EchoTime": 0.408,
+  "SliceThickness": 0.90000004,
+  "FlipAngle": 120,
+  "Manufacturer": "SIEMENS",
+  "SoftwareVersion": "syngo MR E11",
+  "MRAcquisitionType": "3D",
+  "ScanningSequence": "SE",
+  "SequenceVariant": "SK\\SP\\OSP",
+  "ScanOptions": "PFP",
+  "SequenceName": "*spcR_282ns",
+  "Defaced": true,
+  "DefaceMethod": "Manual Box Crop (FieldTrip/MATLAB)"
+}
