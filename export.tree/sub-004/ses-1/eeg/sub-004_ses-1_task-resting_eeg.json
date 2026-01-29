@@ -1,0 +1,12 @@
+{
+  "PowerLineFrequency": 60,
+  "TaskName": "resting",
+  "EEGChannelCount": 95,
+  "MiscChannelCount": 3,
+  "ECGChannelCount": 3,
+  "EEGReference": "common",
+  "RecordingType": "continuous",
+  "RecordingDuration": 1401,
+  "SamplingFrequency": 512,
+  "SoftwareFilters": "n/a"
+}
