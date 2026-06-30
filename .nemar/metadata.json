@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007347",
-  "source": "openneuro",
-  "source_id": "ds007347",
+  "pipeline_stage": "enriched",
   "title": "Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "W. Jeffrey Elias": {},
     "Chang-Chia Liu": {},
@@ -12,23 +12,77 @@
     "Mark Quigg": {},
     "Shayan Moosa": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007347.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007347",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007347",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "anat",
     "eeg"
   ],
-  "datatypes": [
-    "anat",
-    "eeg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "1.4 GB (22 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gz",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset contains EEG recordings and structural MRI data from patients undergoing stereotactic focused ultrasound mesencephalotomy for the treatment of head and neck cancer pain. The study evaluates neurophysiological responses during this minimally invasive neurosurgical procedure, with data acquired using standardized BIDS-compliant protocols. The dataset includes raw EEG data, anatomical MRI scans, and associated clinical information from multiple subjects.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "focused ultrasound",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "stereotactic",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "mesencephalotomy",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "cancer pain",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "neurosurgery",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "intraoperative monitoring",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "pain management",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "neurophysiology",
+      "subject_scheme": "MeSH"
+    }
+  ],
+  "source_hash": "7c04b2eeb164f0fc6e53592696a72d0b66c1c2c6a626fac010ece4a8417b11b7"
 }
