@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007347",
+  "source": "openneuro",
+  "source_id": "ds007347",
+  "title": "Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain",
+  "authors": {
+    "W. Jeffrey Elias": {},
+    "Chang-Chia Liu": {},
+    "Divine Nwafor": {},
+    "Patrick H. Finan": {},
+    "Mark Quigg": {},
+    "Shayan Moosa": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007347.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "anat",
+    "eeg"
+  ],
+  "datatypes": [
+    "anat",
+    "eeg"
+  ]
+}
