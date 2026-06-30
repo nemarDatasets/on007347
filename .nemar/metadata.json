@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain",
+  "description": "This dataset contains EEG recordings and structural MRI scans from patients undergoing stereotactic focused ultrasound mesencephalotomy for the treatment of head and neck cancer pain. The study evaluates neurophysiological responses during this minimally invasive neurosurgical procedure. Data were collected from multiple subjects and organized according to BIDS standards (version 1.8.0). The dataset includes raw EEG data acquired during the procedure and structural anatomical MRI images. Processing was performed using EEG-BIDS (v10.3) and dicm2nii (v20250821) tools.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,6 +13,65 @@
     "Mark Quigg": {},
     "Shayan Moosa": {}
   },
+  "keywords": [
+    {
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "High-Intensity Focused Ultrasound Ablation",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D057086"
+    },
+    {
+      "term": "Mesencephalotomy",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008866"
+    },
+    {
+      "term": "Cancer Pain",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000072716"
+    },
+    {
+      "term": "Neurosurgery",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009493"
+    },
+    {
+      "term": "Stereotactic Surgery",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013238"
+    },
+    {
+      "term": "Pain Management",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059408"
+    },
+    {
+      "term": "Magnetic Resonance Imaging",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "Intraoperative Monitoring",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016343"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007347.v1.0.0",
@@ -30,13 +90,13 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "eeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "1.4 GB (22 files)"
+    "1.8 GB (26 files)"
   ],
   "formats": [
     ".fdt",
@@ -44,45 +104,9 @@
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings and structural MRI data from patients undergoing stereotactic focused ultrasound mesencephalotomy for the treatment of head and neck cancer pain. The study evaluates neurophysiological responses during this minimally invasive neurosurgical procedure, with data acquired using standardized BIDS-compliant protocols. The dataset includes raw EEG data, anatomical MRI scans, and associated clinical information from multiple subjects.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "focused ultrasound",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "stereotactic",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "mesencephalotomy",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "cancer pain",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "neurosurgery",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "intraoperative monitoring",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "pain management",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "neurophysiology",
-      "subject_scheme": "MeSH"
-    }
-  ],
+  "methods_description": "Patients with head and neck cancer pain underwent stereotactic focused ultrasound mesencephalotomy. Neurophysiological monitoring was performed using EEG during the procedure. Structural MRI imaging was acquired as part of the clinical protocol. Data were converted to BIDS format using standardized tools and organized with HED (Hierarchical Event Descriptors) version 8.1.0 for event annotation. Complete methodological details including subject characteristics, inclusion/exclusion criteria, apparatus specifications, task organization, and data quality assessment are provided in the README.md file.",
   "source_hash": "7c04b2eeb164f0fc6e53592696a72d0b66c1c2c6a626fac010ece4a8417b11b7"
 }
