@@ -1,8 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain",
-  "description": "This dataset contains EEG recordings and structural MRI scans from patients undergoing stereotactic focused ultrasound mesencephalotomy for the treatment of head and neck cancer pain. The study evaluates neurophysiological responses during this minimally invasive neurosurgical procedure. Data were collected from multiple subjects and organized according to BIDS standards (version 1.8.0). The dataset includes raw EEG data acquired during the procedure and structural anatomical MRI images. Processing was performed using EEG-BIDS (v10.3) and dicm2nii (v20250821) tools.",
+  "description": "This dataset comprises EEG recordings collected from patients undergoing stereotactic focused ultrasound mesencephalotomy, a neurosurgical intervention for treating intractable head and neck cancer pain. The dataset aims to support research into the neurophysiological effects and outcomes of this pain-relief procedure. Data were organized according to the BIDS standard to facilitate reuse and reproducibility in neuroscience and pain research.",
+  "methods_description": "Patients with head and neck cancer pain underwent stereotactic focused ultrasound mesencephalotomy. Neurophysiological monitoring was performed using EEG during the procedure. Structural MRI imaging was acquired as part of the clinical protocol. Data were converted to BIDS format using standardized tools and organized with HED (Hierarchical Event Descriptors) version 8.1.0 for event annotation. Complete methodological details including subject characteristics, inclusion/exclusion criteria, apparatus specifications, task organization, and data quality assessment are provided in the README.md file.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,10 +16,12 @@
   },
   "keywords": [
     {
-      "term": "EEG",
+      "term": "EEG"
+    },
+    {
+      "term": "Cancer Pain",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000072716"
     },
     {
       "term": "High-Intensity Focused Ultrasound Ablation",
@@ -27,49 +30,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D057086"
     },
     {
-      "term": "Mesencephalotomy",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008866"
+      "term": "Mesencephalotomy"
     },
     {
-      "term": "Cancer Pain",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000072716"
-    },
-    {
-      "term": "Neurosurgery",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009493"
-    },
-    {
-      "term": "Stereotactic Surgery",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013238"
-    },
-    {
-      "term": "Pain Management",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059408"
-    },
-    {
-      "term": "Magnetic Resonance Imaging",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "Intraoperative Monitoring",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D016343"
+      "term": "Stereotactic Surgery"
     }
   ],
   "related_identifiers": [
@@ -107,6 +71,5 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "Patients with head and neck cancer pain underwent stereotactic focused ultrasound mesencephalotomy. Neurophysiological monitoring was performed using EEG during the procedure. Structural MRI imaging was acquired as part of the clinical protocol. Data were converted to BIDS format using standardized tools and organized with HED (Hierarchical Event Descriptors) version 8.1.0 for event annotation. Complete methodological details including subject characteristics, inclusion/exclusion criteria, apparatus specifications, task organization, and data quality assessment are provided in the README.md file.",
   "source_hash": "7c04b2eeb164f0fc6e53592696a72d0b66c1c2c6a626fac010ece4a8417b11b7"
 }
