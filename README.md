@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007347-blue)](https://doi.org/10.82901/nemar.on007347)
+
 # README
 # WARNING
 Below is a template to write a README file for this BIDS dataset. If this message is still present, it means that the person exporting the file has decided not to update the template.If you are the researcher editing this README file, please remove this warning section.
