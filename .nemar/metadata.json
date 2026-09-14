@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain",
-  "description": "This dataset comprises EEG recordings collected from patients undergoing stereotactic focused ultrasound mesencephalotomy, a neurosurgical intervention for treating intractable head and neck cancer pain. The dataset aims to support research into the neurophysiological effects and outcomes of this pain-relief procedure. Data were organized according to the BIDS standard to facilitate reuse and reproducibility in neuroscience and pain research.",
+  "description": "This dataset contains data from a study investigating stereotactic focused ultrasound mesencephalotomy as a treatment for head and neck cancer pain. It includes neuroimaging and/or electrophysiological recordings collected to assess the effects of this stereotactic intervention on pain-related brain circuitry. The dataset is intended to support research into ultrasound-based neurosurgical treatments for chronic cancer pain.",
   "methods_description": "Patients with head and neck cancer pain underwent stereotactic focused ultrasound mesencephalotomy. Neurophysiological monitoring was performed using EEG during the procedure. Structural MRI imaging was acquired as part of the clinical protocol. Data were converted to BIDS format using standardized tools and organized with HED (Hierarchical Event Descriptors) version 8.1.0 for event annotation. Complete methodological details including subject characteristics, inclusion/exclusion criteria, apparatus specifications, task organization, and data quality assessment are provided in the README.md file.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -16,7 +16,10 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "focused ultrasound"
+    },
+    {
+      "term": "mesencephalotomy"
     },
     {
       "term": "Cancer Pain",
@@ -24,24 +27,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000072716"
     },
     {
-      "term": "High-Intensity Focused Ultrasound Ablation",
+      "term": "stereotactic techniques"
+    },
+    {
+      "term": "Head and Neck Neoplasms",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D057086"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006258"
     },
     {
-      "term": "Mesencephalotomy"
-    },
-    {
-      "term": "Stereotactic Surgery"
+      "term": "EEG"
     }
   ],
   "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007347.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
     {
       "identifier": "https://github.com/nemarDatasets/on007347",
       "identifier_type": "URL",
@@ -51,6 +48,11 @@
       "identifier": "https://nemar.org/dataset/on007347",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007347.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
@@ -60,7 +62,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.8 GB (26 files)"
+    "1.65 GB (26 files)"
   ],
   "formats": [
     ".fdt",
@@ -71,5 +73,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "7c04b2eeb164f0fc6e53592696a72d0b66c1c2c6a626fac010ece4a8417b11b7"
+  "source_hash": "46b35f0b5f81e41f737d421a8bc76ab641f33610d2ac2e3d1b1202ab572e269f"
 }
